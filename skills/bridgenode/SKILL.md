@@ -1,7 +1,6 @@
 ---
 name: bridgenode
 description: Use BridgeNode for AI inference (LLM chat completions) without API keys or registration. Pay per request with Solana USDC via x402 (HTTP 402 payment flow). OpenAI-compatible endpoint, MCP server available. Use when an agent needs LLM inference and has a wallet with USDC but no provider API key, or when pay-per-request pricing is preferred over subscriptions.
-license: MIT
 metadata:
   author: BridgeNode
   version: "1.0.0"
