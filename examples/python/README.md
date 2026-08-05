@@ -29,3 +29,4 @@ python main.py
 - Solana mainnet, real USDC. Minimum charge: $0.002 per request.
 - Gas is sponsored by BridgeNode — the agent only needs USDC, no SOL.
 - The agent must have an existing USDC ATA (associated token account).
+- Funding: send USDC on Solana mainnet to the agent wallet — the USDC ATA is created automatically on first deposit (no manual token account setup).

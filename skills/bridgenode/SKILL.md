@@ -62,6 +62,13 @@ Key details:
 - The agent does **not** need SOL — BridgeNode sponsors transaction fees.
 - Use the official x402 SDKs (`@x402/svm`, `x402[svm]`) or any x402-capable client — they handle the 402 → sign → retry flow automatically.
 
+## Funding
+
+- Requires USDC on Solana mainnet (no API keys, no registration)
+- USDC ATA is auto-created on first USDC deposit — no manual token account setup
+- Gasless: BridgeNode sponsor covers Solana fees
+- Optional spending caps: `BRIDGENODE_MAX_PER_CALL`, `BRIDGENODE_DAILY_CAP`
+
 ## Quick Start (curl)
 
 Step 1 — get payment requirements:
